@@ -11,7 +11,7 @@ const webProjects = [
     description:
       "Modern luxury-themed portfolio website built with React, smooth animations, and responsive UI design.",
     github: "https://github.com/mubarak23523",
-    live: "https://mubarak-portfolio-05.netlify.app",
+    live: "https://mubarak-ali-portfolio.vercel.app/",
   },
 
   {

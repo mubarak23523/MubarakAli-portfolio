@@ -3,62 +3,43 @@ import React from "react";
 const About = () => {
   return (
     <section className="about-section" id="about">
-
-      <div className="about-container">
-
-        {/* LEFT SIDE */}
-
-        <div className="about-image-section">
-
-          <img
-            src="/meee.jpeg"
-            alt="Mubarak"
-            className="about-image"
-          />
-
-        </div>
-
-        {/* RIGHT SIDE */}
-
-        <div className="about-content">
-
-          <h2>About Me</h2>
-
-          <p>
-            I'm a passionate frontend developer and 3D artist
-            focused on creating modern, interactive, and visually
-            appealing digital experiences.
-          </p>
-
-          <p>
-            I enjoy designing premium user interfaces,
-            building responsive websites, and experimenting
-            with Blender and creative animations.
-          </p>
-
-          <div className="about-stats">
-
-            <div className="stat-box">
-              <h3>10+</h3>
-              <span>Projects</span>
-            </div>
-
-            <div className="stat-box">
-              <h3>2+</h3>
-              <span>Years Learning</span>
-            </div>
-
-            <div className="stat-box">
-              <h3>100%</h3>
-              <span>Creativity</span>
-            </div>
-
-          </div>
-
-        </div>
-
+      <div className="about-header">
+        <span className="about-subtitle">ABOUT ME</span>
+        <h2>More Than Just Code</h2>
+        <p>
+          I combine frontend development, UI design, and 3D creativity to build
+          digital experiences that feel modern, useful, and visually memorable.
+        </p>
       </div>
 
+      <div className="about-cards">
+        <div className="about-card">
+          <h3>01</h3>
+          <h4>Creative Thinking</h4>
+          <p>
+            I start every project with a visual idea, then shape it into a clean
+            and interactive user experience.
+          </p>
+        </div>
+
+        <div className="about-card">
+          <h3>02</h3>
+          <h4>Frontend Focus</h4>
+          <p>
+            I build responsive websites using React, JavaScript, HTML, CSS, and
+            modern UI patterns.
+          </p>
+        </div>
+
+        <div className="about-card">
+          <h3>03</h3>
+          <h4>3D Visual Style</h4>
+          <p>
+            My Blender work helps me bring depth, atmosphere, lighting, and
+            cinematic visuals into digital design.
+          </p>
+        </div>
+      </div>
     </section>
   );
 };

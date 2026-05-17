@@ -65,8 +65,7 @@ const Hero = () => {
           <img src="/meee.png" alt="Mubarak" />
 
           <div className="floating-card card-one">
-            Full-Stack <br></br>
-            Developer
+            Web Developer
           </div>
 
           <div className="floating-card card-two">

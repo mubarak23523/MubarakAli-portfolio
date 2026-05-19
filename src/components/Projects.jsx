@@ -78,6 +78,7 @@ const projects = [
 
 const Projects = () => {
   return (
+    
     <section className="projects-section" id="projects">
       <h2 className="section-title">
         My 3D-Projects

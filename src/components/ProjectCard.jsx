@@ -93,11 +93,11 @@ const ProjectCard = ({
           </span>
 
           <img
-            src={image}
-            alt={title}
-            className="popup-image"
-          />
-
+  src={image}
+  alt={title}
+  className="popup-image"
+  onClick={(e) => e.stopPropagation()}
+/>
         </div>
       )}
     </>

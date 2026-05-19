@@ -1,7 +1,8 @@
 import React from "react";
-
+import Reveal from "./Reveal";
 const About = () => {
   return (
+    <Reveal>
     <section className="about-section" id="about">
       <div className="about-header">
         <span className="about-subtitle">ABOUT ME</span>
@@ -41,6 +42,7 @@ const About = () => {
         </div>
       </div>
     </section>
+    </Reveal>
   );
 };
 

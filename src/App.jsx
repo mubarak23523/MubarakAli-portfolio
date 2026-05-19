@@ -9,6 +9,8 @@ import BackgroundEffects from "./components/BackgroundEffects";
 import Cursor from "./components/Cursor";
 import ScrollProgress from "./components/ScrollProgress";
 import WebProjects from "./components/WebProjects";
+import Loader from "./components/Loader";
+import Reveal from "./components/Reveal";
 
 function App() {
   return (
@@ -16,15 +18,28 @@ function App() {
       <Cursor />
       <ScrollProgress />
       <BackgroundEffects />
-
+      <Loader />
       <Navbar />
       <Hero />
+      <Reveal>
       <About />
+      </Reveal> 
+      <Reveal> 
       <Skills />
+      </Reveal> 
+      <Reveal> 
       <Projects />
+      </Reveal>
+      <Reveal>  
       <WebProjects />
+      </Reveal> 
+      <Reveal> 
       <Contact />
+      </Reveal> 
+      <Reveal> 
       <Footer />
+      </Reveal> 
+      <Reveal />
     </>
   );
 }

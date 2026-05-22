@@ -31,7 +31,16 @@ const webProjects = [
     github: "https://github.com/mubarak23523",
     live: "https://artistic-rach.netlify.app",
   },
-
+{
+  title: "Increnity Creative Platform",
+  image: "/web/logo3.png",
+  description:
+    "Developed and deployed a full-stack creative community platform with responsive frontend, secure backend APIs, MongoDB Atlas integration, authentication system, admin dashboard, and cloud deployment using Vercel and Render.",
+  tech:
+    "React.js, Node.js, Express.js, MongoDB Atlas, Render, Vercel, CSS",
+  github: "https://github.com/mubarak23523",
+    live: "https://increnity.vercel.app/",
+}
  
 ];
 

@@ -23,14 +23,7 @@ const webProjects = [
     live: "https://chennaidigitalprinting.netlify.app",
   },
 
-  {
-    title: "Simple Artist Website",
-    image: "/web/logo3.png",
-    description:
-      "Live web page for a artistic ,Using simple HTML ,CSS.",
-    github: "https://github.com/mubarak23523",
-    live: "https://artistic-rach.netlify.app",
-  },
+
 {
   title: "Increnity Creative Platform",
   image: "/web/logo3.png",
